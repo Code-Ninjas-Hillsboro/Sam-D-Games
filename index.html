@@ -1,11 +1,11 @@
+
  <!-- URL for website is: code-ninjas-hillsboro.github.io/[Ninja first name]-[Ninja last initial]-Games  -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Ninja first name]'s Games</title>
-    
+    <title>Sam's Games</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,9 +25,28 @@
             background-color: #4CAF50;
             color: white;
             font-size: 18px;
+            font-weight: bold;
             border-radius: 25px;
             margin: 10px 0;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section-header-impact {
+            display: block; 
+            padding: 15px 30px;
+            color: black;
+            font-size: 18px;
+            border-radius: 25px;
+            font-weight: bold;
+            border-color: black
+            margin: 10px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(
+                to right,
+                #eabb5c 25%,
+                #d96d32 25% 50%,
+                #a7c839 50% 75%,
+                #4673b9 75%
+            );
         }
         button {
             padding: 10px 20px;
@@ -45,8 +64,13 @@
     </style>
 </head>
 <body>
-    <h1>[Ninja first name]'s Games</h1>
-    
+    <h1>Sam's Games</h1>
+
+    <div class="button-container">
+        <div class="section-header-impact" ;">IMPACT</div>
+        <button onclick="window.location.href='[Makecode arcade link here]'">Go to [game 1 name not yet added]</button>
+    </div>
+ 
     <div class="button-container">
         <div class="section-header" style="background-color: #893f98;">Purple Belt Games</div>
         <button onclick="window.location.href='Game1NameDemo/index.html'">Go to [game 1 name not yet added]</button>
@@ -68,4 +92,3 @@
     </div>
 </body>
 </html>
-
